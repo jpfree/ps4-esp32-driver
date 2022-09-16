@@ -26,8 +26,7 @@ jobs:
       - uses: actions/checkout@v3
 
 
-        
-      - name: espressif idf build
+      - name: ctag esp idf build
   # You may pin to the exact commit or the version.
-  # uses: sebastianPsm/esp-idf-ci-action@0d3a6383c061c36cb4ce9ac05d3222500702fe6b
-        uses: sebastianPsm/esp-idf-ci-action@1
+  # uses: ctag-fh-kiel/esp-idf-action@a548fff36ab7627c29cd7b207a179ca44c89de38
+        uses: ctag-fh-kiel/esp-idf-action@4
